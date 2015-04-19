@@ -20,6 +20,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 endif
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+# yu-aosp
+$(call inherit-product, vendor/yu-aosp/config/common_full_phone.mk)
+
 # Inherit from tomato device
 $(call inherit-product, device/yu/tomato/device.mk)
 
