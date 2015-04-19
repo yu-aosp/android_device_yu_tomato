@@ -163,6 +163,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(LOCAL_PATH)
 TARGET_RIL_VARIANT := caf
 
 # SELinux
+include vendor/yu-aosp/sepolicy/sepolicy.mk
 include device/qcom/sepolicy/sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += \
