@@ -45,6 +45,7 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno405
 
 # Assertions
 TARGET_BOARD_INFO_FILE ?= device/yu/tomato/board-info.txt
+TARGET_OTA_ASSERT_DEVICE := tomato,YUREKA
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8916
